@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Programming Question Bank</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Login Page -->
+<div id="login-page" class="login-container">
+  <div class="login-box">
+    <h1 class="logo">Programming QBank</h1>
+    <h2>Login</h2>
+    <p class="tagline">Enter your details to get started</p>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="👤 Your Name" required>
+      <input type="email" id="email" placeholder="📧 Your Email" required>
+      <button type="submit" class="btn-login">Login</button>
+    </form>
+  </div>
+</div>
+
+
+  <!-- Main Content -->
+  <div class="container" id="main-content" style="display:none;">
+    <div class="header">
+      <h1>Programming Question Bank</h1>
+      <p>Master your coding skills with practice questions across multiple subjects</p>
+    </div>
+
+    <div id="subjects-view">
+      <div class="subjects-grid">
+        <div class="subject-card" data-subject="java">
+          <h3>Java</h3>
+          <p>Object-oriented programming fundamentals, collections, and advanced concepts</p>
+        </div>
+        <div class="subject-card" data-subject="c">
+          <h3>C Programming</h3>
+          <p>Core programming concepts, pointers, memory management, and data structures</p>
+        </div>
+        <div class="subject-card" data-subject="cpp">
+          <h3>C++</h3>
+          <p>Object-oriented programming, STL, templates, and advanced C++ features</p>
+        </div>
+        <div class="subject-card" data-subject="dbms">
+          <h3>Database Management</h3>
+          <p>SQL queries, database design, normalization, and transaction management</p>
+        </div>
+        <div class="subject-card" data-subject="html">
+          <h3>HTML</h3>
+          <p>Web structure, semantic markup, forms, and modern HTML5 features</p>
+        </div>
+        <div class="subject-card" data-subject="css">
+          <h3>CSS</h3>
+          <p>Styling, layouts, animations, responsive design, and modern CSS techniques</p>
+        </div>
+        <div class="subject-card" data-subject="javascript">
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, ES6+, async programming, and modern JavaScript concepts</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="questions-view" class="question-container">
+      <button class="btn btn-secondary back-btn" id="back-btn">← Back to Subjects</button>
+      
+      <div class="question-header">
+        <h2 id="subject-title">Subject Questions</h2>
+        <div class="question-counter" id="question-counter">Question 1 of 5</div>
+      </div>
+
+      <div class="stats">
+        <div class="stat-card">
+          <div class="stat-number" id="total-questions">0</div>
+          <div class="stat-label">Total Questions</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number" id="current-index">0</div>
+          <div class="stat-label">Current</div>
+        </div>
+      </div>
+
+      <div class="question-content" id="question-content">
+        <h3 id="question-title">Question Title</h3>
+        <p id="question-text">Question content will appear here...</p>
+        <div id="question-difficulty"></div>
+      </div>
+
+<div class="question-controls">
+    <button class="btn btn-secondary" id="prev-btn">Previous</button>
+    <button class="btn btn-primary" id="next-btn">Next</button>
+    <button class="btn btn-secondary" id="random-btn">Random</button>
+    <button class="btn btn-success" id="done-btn">Done</button>
+</div>
+<button onclick="showProgress()">Show My Progress</button>
+
+<div id="progress" style="display:none; margin-top:20px;">
+  <h2>Your Progress</h2>
+  <div id="progressData"></div>
+</div>
+
+
+    <!-- Creator Info -->
+    <footer class="footer">
+      <p>Created by <strong>Umakant Kautkar</strong> | SYBCS C</p>
+    </footer>
+  </div>
+<!-- Subject question files -->
+<script src="java.js"></script>
+<script src="c.js"></script>
+<script src="cpp.js"></script>
+<script src="dbms.js"></script>
+<script src="html.js"></script>
+<script src="css.js"></script>
+<script src="javascript.js"></script>
+
+<!-- Main app logic -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
