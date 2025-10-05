@@ -257,7 +257,307 @@ window.questionBank["java"] = [
   title: "Program to implement bubble sort",
   content: "Write a Java program to implement bubble sort algorithm.",
   difficulty: "medium"
-}
+},
+ {
+    title: "Basic Java Structure",
+    content: "Write a simple Java program that prints 'Hello, Java!'.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Comments in Java",
+    content: "Explain different types of comments used in Java with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Data Types",
+    content: "List all primitive data types in Java and give an example of each.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Variables",
+    content: "Write Java code to declare and initialize integer and float variables.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "If-Else Statement",
+    content: "Write a Java program that checks whether a number is positive, negative, or zero.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Switch Case",
+    content: "Explain the syntax of the switch statement in Java with an example.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "For Loop",
+    content: "Write a Java program to print numbers from 1 to 10 using a for loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "While Loop",
+    content: "Write a Java program to find the sum of first 5 natural numbers using a while loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Do-While Loop",
+    content: "Explain how do-while loop differs from while loop with an example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Arrays",
+    content: "Write Java code to store and print 5 student names using an array.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Enhanced For Loop",
+    content: "Demonstrate how to use an enhanced for loop to display all elements of an array.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Methods in Java",
+    content: "Write a Java program with a method that adds two numbers and returns the sum.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Static Keyword",
+    content: "What is the purpose of the 'static' keyword in Java? Give an example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Constructor Example",
+    content: "Write a Java program to demonstrate a parameterized constructor.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Constructor Overloading",
+    content: "Explain constructor overloading in Java with an example.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Object and Class",
+    content: "Define 'class' and 'object' in Java and explain their relationship.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Encapsulation",
+    content: "Write a Java class that uses private variables and public getter/setter methods.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Inheritance",
+    content: "Write a Java program that demonstrates single inheritance using classes A and B.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Method Overriding",
+    content: "Explain method overriding with an example program in Java.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Final Keyword",
+    content: "What is the use of the 'final' keyword in Java? Explain with examples for class, method, and variable.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Abstraction",
+    content: "Write an abstract class 'Animal' with an abstract method 'sound()' and implement it in subclasses.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Interface Example",
+    content: "Write a Java program that implements an interface named 'Shape' with a method 'draw()'.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Polymorphism",
+    content: "What is polymorphism in Java? Explain compile-time and runtime polymorphism.",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "Packages",
+    content: "What are Java packages? How can you create and import them?",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Access Modifiers",
+    content: "List all access modifiers in Java and explain their scope.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "String Operations",
+    content: "Write a Java program to find the length of a string and convert it to uppercase.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "StringBuilder vs StringBuffer",
+    content: "Differentiate between StringBuilder and StringBuffer in Java.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Exception Handling",
+    content: "Write Java code to handle an ArithmeticException using try-catch block.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Multiple Catch Blocks",
+    content: "Explain how multiple catch blocks work in Java with an example.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Finally Block",
+    content: "What is the purpose of the 'finally' block in Java?",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Custom Exception",
+    content: "Write a Java program to create and use a custom exception class.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Wrapper Classes",
+    content: "What are wrapper classes in Java? List a few examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "ArrayList Example",
+    content: "Write Java code to create an ArrayList of integers and print all elements.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "HashMap Example",
+    content: "Write a Java program to store student names and marks using HashMap.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "File Handling",
+    content: "Write Java code to read contents from a text file using FileReader.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Thread Example",
+    content: "Write a Java program to create a thread by extending the Thread class.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Runnable Interface",
+    content: "Explain how to create a thread using the Runnable interface with an example.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Synchronization",
+    content: "What is synchronization in Java? Why is it needed in multithreading?",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "Garbage Collection",
+    content: "Explain garbage collection in Java. How can you request it manually?",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "JVM, JRE, and JDK",
+    content: "Differentiate between JVM, JRE, and JDK.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Command Line Arguments",
+    content: "Write a Java program that accepts and prints command-line arguments.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Scanner Class",
+    content: "Write a Java program to take user input using Scanner class.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Static vs Instance Methods",
+    content: "Explain the difference between static and instance methods in Java.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Nested Classes",
+    content: "What are nested classes in Java? Demonstrate with a simple example.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Enumeration (Enum)",
+    content: "Write a Java program that defines an enum for Days of the Week.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Lambda Expressions",
+    content: "Explain lambda expressions introduced in Java 8 with an example.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Streams API",
+    content: "Write Java code to filter even numbers from a list using Stream API.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Inheritance Types",
+    content: "List different types of inheritance supported in Java.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Default Constructor",
+    content: "What is a default constructor in Java? Write an example.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Interface vs Abstract Class",
+    content: "Differentiate between interface and abstract class in Java.",
+    difficulty: "hard",
+    type: "theory"
+  }
 
     
 

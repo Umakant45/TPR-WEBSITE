@@ -255,7 +255,297 @@ window.questionBank["c"] = [
   title: "Program to count words in a string",
   content: "Write a C program to count the number of words in a string.",
   difficulty: "easy"
-}
+},
+
+  // --- BASIC & FUNDAMENTALS ---
+  {
+    title: "What is C?",
+    content: "Explain what C language is, its features, and uses.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Hello World in C",
+    content: "Write a simple C program to print 'Hello, World!' to the console.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Data Types in C",
+    content: "List and explain fundamental data types in C (int, float, char, double).",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Variables in C",
+    content: "Explain variable declaration and initialization with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Constants in C",
+    content: "Write C code to define constants using const and #define.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Operators in C",
+    content: "Explain arithmetic, relational, logical, and assignment operators with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Type Casting",
+    content: "Write C code demonstrating implicit and explicit type casting.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Input/Output in C",
+    content: "Write a program to take two numbers from user and print their sum using scanf and printf.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Conditional Statements",
+    content: "Write C code to check if a number is positive, negative, or zero using if-else.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Switch Statement",
+    content: "Write a program to print the day of the week based on an integer using switch-case.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- LOOPS & FUNCTIONS ---
+  {
+    title: "For Loop Example",
+    content: "Write C code to print numbers from 1 to 10 using a for loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "While Loop Example",
+    content: "Write C code to print numbers from 1 to 5 using a while loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Do-While Loop Example",
+    content: "Write C code to print numbers 1 to 5 using a do-while loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Functions in C",
+    content: "Write a function to calculate the sum of two numbers and call it in main().",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Function Arguments",
+    content: "Explain passing arguments by value and by reference in C.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Recursion",
+    content: "Write a recursive function to calculate factorial of a number.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Return Statement",
+    content: "Explain the use of return statement in functions with an example.",
+    difficulty: "easy",
+    type: "theory"
+  },
+
+  // --- ARRAYS & STRINGS ---
+  {
+    title: "Arrays in C",
+    content: "Write C code to declare an array of 5 integers and display its elements.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Multidimensional Arrays",
+    content: "Write C code to create a 2x2 matrix and print its elements.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "String Basics",
+    content: "Write C code to take a string input and print it.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "String Functions",
+    content: "Explain common string functions like strlen(), strcpy(), strcat(), strcmp() with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Character Array vs String",
+    content: "Explain the difference between character arrays and strings in C.",
+    difficulty: "medium",
+    type: "theory"
+  },
+
+  // --- POINTERS & MEMORY ---
+  {
+    title: "Pointers in C",
+    content: "Explain pointers and write code to display the address of a variable.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Pointer Arithmetic",
+    content: "Write C code demonstrating increment and decrement of pointer variables.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Pointers and Arrays",
+    content: "Write C code using pointers to traverse an array.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Pointer to Pointer",
+    content: "Write C code to declare a pointer to pointer and display values.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Dynamic Memory Allocation",
+    content: "Explain malloc(), calloc(), realloc(), and free() in C with examples.",
+    difficulty: "hard",
+    type: "theory"
+  },
+
+  // --- STRUCTURES & UNIONS ---
+  {
+    title: "Structures in C",
+    content: "Write C code to define a structure for a student and display its values.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Nested Structures",
+    content: "Write C code to define a structure inside another structure.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Unions in C",
+    content: "Explain unions in C and write code to demonstrate memory sharing.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Enums in C",
+    content: "Write C code to define an enum for days of the week and print a value.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Typedef in C",
+    content: "Explain typedef in C and write an example to create an alias for int.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- FILE HANDLING ---
+  {
+    title: "File I/O Basics",
+    content: "Write C code to create a file 'data.txt' and write some text into it.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Read from File",
+    content: "Write C code to read contents of 'data.txt' and display on console.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Append to File",
+    content: "Write C code to append text to an existing file.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Binary File I/O",
+    content: "Explain how to read and write binary files in C with examples.",
+    difficulty: "hard",
+    type: "theory"
+  },
+
+  // --- PREPROCESSOR & ADVANCED TOPICS ---
+  {
+    title: "C Preprocessor",
+    content: "Explain #define, #include, #ifdef, #ifndef, #undef with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Macros in C",
+    content: "Write a macro to calculate the square of a number.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Command-line Arguments",
+    content: "Write C code to accept command-line arguments and print them.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Recursion Example",
+    content: "Write a recursive program to print Fibonacci series up to n terms.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Memory Leaks in C",
+    content: "Explain what memory leaks are and how to avoid them in C.",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "Difference between C and C++",
+    content: "Explain the main differences between C and C++.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Static vs Global Variables",
+    content: "Explain the difference between static and global variables with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Const Keyword",
+    content: "Explain the use of const keyword in C with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Volatile Keyword",
+    content: "Explain the volatile keyword in C with examples.",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "C vs Python",
+    content: "Briefly compare C with Python regarding speed, memory management, and use cases.",
+    difficulty: "medium",
+    type: "theory"
+  }
 
         
 ];

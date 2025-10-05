@@ -255,6 +255,185 @@ window.questionBank["html"] = [
   title: "Responsive image",
   content: "Write HTML code to display a responsive image that adjusts to 100% width of the parent container.",
   difficulty: "medium"
+},
+{
+  title: "HTML Boilerplate",
+  content: "Write the basic structure of an HTML5 document with DOCTYPE declaration.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "Meta Tags",
+  content: "What is the use of the &lt;meta&gt; tag in HTML? Give two examples.",
+  difficulty: "easy",
+  type: "theory"
+},
+{
+  title: "Link Tag",
+  content: "Write HTML code to link an external CSS file named 'style.css'.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "Internal CSS",
+  content: "Demonstrate how to apply internal CSS to change the body background color to beige.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "Image Attributes",
+  content: "List and explain any three attributes of the &lt;img&gt; tag.",
+  difficulty: "easy",
+  type: "theory"
+},
+{
+  title: "Ordered List",
+  content: "Write HTML code to display an ordered list of 3 programming languages.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "Form Input Types",
+  content: "Name at least five different input types supported in HTML5.",
+  difficulty: "medium",
+  type: "theory"
+},
+{
+  title: "Table Border Example",
+  content: "Write HTML code for a table with 2 rows and 3 columns with visible borders.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "Inline Frame",
+  content: "What is the use of the &lt;iframe&gt; tag? Write an example embedding YouTube.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "Anchor Target Attribute",
+  content: "Explain the purpose of the 'target' attribute in the &lt;a&gt; tag with example values.",
+  difficulty: "medium",
+  type: "theory"
+},
+{
+  title: "HTML Entities",
+  content: "What are HTML entities? Write examples for &lt;, &gt;, and &amp;.",
+  difficulty: "easy",
+  type: "theory"
+},
+{
+  title: "Audio Tag Example",
+  content: "Write HTML code to play an audio file named 'sound.mp3' with controls enabled.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "Video Tag Controls",
+  content: "Write HTML code to embed a video named 'movie.mp4' that autoplays and loops.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "Fieldset and Legend",
+  content: "Demonstrate how to group form elements using &lt;fieldset&gt; and &lt;legend&gt;.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "Semantic Tags",
+  content: "List any five semantic HTML5 elements and their purposes.",
+  difficulty: "medium",
+  type: "theory"
+},
+{
+  title: "HTML Comments",
+  content: "How do you add comments in HTML? Why are they useful?",
+  difficulty: "easy",
+  type: "theory"
+},
+{
+  title: "Form Validation",
+  content: "Write HTML code to create a required email input field with placeholder text.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "Favicons",
+  content: "What is a favicon? How do you add it to an HTML page?",
+  difficulty: "medium",
+  type: "theory"
+},
+{
+  title: "Anchor Links",
+  content: "Write HTML code to create a link that opens in a new tab.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "Table Header",
+  content: "Write HTML code for a table with a header row containing 'Name', 'Age', and 'City'.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "HTML5 Canvas",
+  content: "What is the &lt;canvas&gt; element used for? Mention one real-life use case.",
+  difficulty: "hard",
+  type: "theory"
+},
+{
+  title: "Data Attributes",
+  content: "Explain what 'data-' attributes are in HTML5 and give an example of usage.",
+  difficulty: "medium",
+  type: "theory"
+},
+{
+  title: "Responsive Meta Tag",
+  content: "Write HTML code to make a page responsive using the viewport meta tag.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "Forms and Labels",
+  content: "Write HTML code to create a form with a text input labeled 'Username'.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "HTML Accessibility",
+  content: "What is the purpose of the 'alt' attribute in images for accessibility?",
+  difficulty: "easy",
+  type: "theory"
+},
+{
+  title: "Hyperlink Email",
+  content: "Write HTML code to create a mailto link for 'info@example.com'.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "List Nesting",
+  content: "Write HTML code to create a nested list of fruits and their types.",
+  difficulty: "medium",
+  type: "program"
+},
+{
+  title: "HTML5 APIs",
+  content: "Name three popular HTML5 APIs and explain any one briefly.",
+  difficulty: "hard",
+  type: "theory"
+},
+{
+  title: "Input Placeholder",
+  content: "Write HTML code for a password input with a placeholder 'Enter Password'.",
+  difficulty: "easy",
+  type: "program"
+},
+{
+  title: "HTML vs XHTML",
+  content: "Differentiate between HTML and XHTML in terms of syntax and structure.",
+  difficulty: "hard",
+  type: "theory"
 }
-
 ];

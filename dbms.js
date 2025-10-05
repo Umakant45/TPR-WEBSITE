@@ -255,7 +255,303 @@ window.questionBank["dbms"] = [
   title: "Drop table",
   content: "Write an SQL query to drop the Student table permanently.",
   difficulty: "medium"
-}
+},
+{
+    title: "What is DBMS?",
+    content: "Explain what a Database Management System (DBMS) is and its advantages over file systems.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Types of DBMS",
+    content: "List different types of DBMS (Hierarchical, Network, Relational, NoSQL) with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Database vs Table",
+    content: "Explain the difference between a database and a table.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Primary Key",
+    content: "What is a primary key? Give an example in SQL.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Foreign Key",
+    content: "What is a foreign key? Write SQL code to define a foreign key.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Data Types in SQL",
+    content: "List common SQL data types for numbers, strings, and dates.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Create Database",
+    content: "Write SQL code to create a database named 'SchoolDB'.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Create Table",
+    content: "Write SQL code to create a table 'Students' with columns: ID, Name, Age, and Grade.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Insert Records",
+    content: "Write SQL code to insert 3 records into the 'Students' table.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Select Query",
+    content: "Write SQL code to select all records from the 'Students' table.",
+    difficulty: "easy",
+    type: "program"
+  },
+
+  // --- CONDITIONAL & AGGREGATE QUERIES ---
+  {
+    title: "Where Clause",
+    content: "Write SQL code to select students with Age > 18.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Order By",
+    content: "Write SQL code to display students ordered by Name in ascending order.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Group By",
+    content: "Write SQL code to count the number of students in each Grade.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Aggregate Functions",
+    content: "Explain COUNT(), SUM(), AVG(), MIN(), and MAX() with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Distinct Keyword",
+    content: "Write SQL code to display distinct grades from the Students table.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Like Operator",
+    content: "Write SQL code to select students whose name starts with 'A'.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Between Operator",
+    content: "Write SQL code to select students with Age between 15 and 20.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "AND, OR, NOT",
+    content: "Write SQL code to select students aged >15 and in Grade 'A'.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Update Query",
+    content: "Write SQL code to update Grade to 'B' for student with ID = 2.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Delete Query",
+    content: "Write SQL code to delete a student record with ID = 3.",
+    difficulty: "easy",
+    type: "program"
+  },
+
+  // --- JOINS & RELATIONS ---
+  {
+    title: "Inner Join",
+    content: "Write SQL code to perform an inner join between 'Students' and 'Classes' tables.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Left Join",
+    content: "Explain the difference between INNER JOIN and LEFT JOIN with an example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Right Join",
+    content: "Write SQL code to perform a right join between two tables.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Full Outer Join",
+    content: "What is a full outer join? Provide an example in SQL.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Self Join",
+    content: "Write SQL code to join a table with itself to find students in the same grade.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Cross Join",
+    content: "Explain cross join with a simple example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+
+  // --- NORMALIZATION & CONSTRAINTS ---
+  {
+    title: "Normalization",
+    content: "Explain normalization and list 1NF, 2NF, and 3NF with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Denormalization",
+    content: "What is denormalization? Give a scenario where it is used.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Primary vs Candidate Key",
+    content: "Explain the difference between primary key and candidate key.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Unique Constraint",
+    content: "Write SQL code to add a UNIQUE constraint to the Email column in Students table.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Not Null Constraint",
+    content: "Write SQL code to ensure the Name column in Students table cannot be NULL.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Check Constraint",
+    content: "Write SQL code to ensure Age in Students table is greater than 5.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Default Constraint",
+    content: "Write SQL code to set default Grade='C' for new students.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- TRANSACTIONS & INDEXES ---
+  {
+    title: "Transactions in DBMS",
+    content: "Explain what a transaction is and the ACID properties with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Commit & Rollback",
+    content: "Write SQL code to demonstrate COMMIT and ROLLBACK operations.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Savepoint",
+    content: "What is a savepoint in SQL? Provide an example.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Indexing",
+    content: "Explain the purpose of indexing in a database and give a SQL example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Views in SQL",
+    content: "Write SQL code to create a view showing students with Grade='A'.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Stored Procedures",
+    content: "Explain what a stored procedure is and write an example to insert a new student.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Triggers",
+    content: "Write SQL code to create a trigger that updates another table when a new student is inserted.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Union & Union All",
+    content: "Write SQL code using UNION and UNION ALL to combine two SELECT queries.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Subqueries",
+    content: "Write SQL code using a subquery to find students with marks greater than the average.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Constraints Summary",
+    content: "List all types of constraints in SQL and explain each with an example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "DBMS vs RDBMS",
+    content: "Explain the difference between DBMS and RDBMS with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "NoSQL vs SQL",
+    content: "Differentiate between SQL and NoSQL databases with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Normalization Example",
+    content: "Given a table with redundant data, normalize it up to 3NF.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "ER Diagram",
+    content: "Explain what an ER diagram is and draw one for Students and Courses tables.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Joins vs Subqueries",
+    content: "Explain the difference between using joins and subqueries to fetch related data.",
+    difficulty: "medium",
+    type: "theory"
+  }
 
 
 ];

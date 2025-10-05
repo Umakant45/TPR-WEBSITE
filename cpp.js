@@ -256,7 +256,306 @@ window.questionBank["cpp"] = [
   title: "Program to implement queue using class",
   content: "Write a C++ program to implement queue operations (enqueue, dequeue, display) using a class.",
   difficulty: "hard"
-}
+},
+
+
+  // --- BASIC & FUNDAMENTALS ---
+  {
+    title: "What is C++?",
+    content: "Explain what C++ is, its features, and differences from C.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Hello World in C++",
+    content: "Write a simple C++ program to print 'Hello, World!' to the console.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Data Types in C++",
+    content: "List and explain fundamental data types in C++ (int, float, double, char, bool).",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Variables in C++",
+    content: "Explain variable declaration and initialization with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Constants in C++",
+    content: "Write C++ code to define constant values using const and #define.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Operators in C++",
+    content: "Explain arithmetic, relational, logical, and assignment operators with examples.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Type Casting",
+    content: "Write C++ code demonstrating implicit and explicit type casting.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Input/Output in C++",
+    content: "Write a program to take two numbers from user and print their sum using cin and cout.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Conditional Statements",
+    content: "Write C++ code to check if a number is positive, negative, or zero using if-else.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Switch Statement",
+    content: "Write a program to print the day of the week based on an integer using switch-case.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- LOOPS & FUNCTIONS ---
+  {
+    title: "For Loop Example",
+    content: "Write C++ code to print numbers from 1 to 10 using a for loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "While Loop Example",
+    content: "Write C++ code to print numbers from 1 to 5 using a while loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Do-While Loop Example",
+    content: "Write C++ code to print numbers 1 to 5 using a do-while loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Functions in C++",
+    content: "Write a function to calculate the sum of two numbers and call it in main().",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Function Overloading",
+    content: "Explain function overloading in C++ with a code example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Default Arguments",
+    content: "Write C++ code demonstrating the use of default arguments in a function.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Recursion",
+    content: "Write a recursive function to calculate factorial of a number.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- ARRAYS & STRINGS ---
+  {
+    title: "Arrays in C++",
+    content: "Write C++ code to declare an array of 5 integers and display its elements.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Multidimensional Arrays",
+    content: "Write C++ code to create a 2x2 matrix and print its elements.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "String Basics",
+    content: "Write C++ code to take a string input and print its length.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "String Concatenation",
+    content: "Write C++ code to concatenate two strings.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "String Functions",
+    content: "Explain common string functions like length(), substr(), and find() with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+
+  // --- POINTERS & MEMORY ---
+  {
+    title: "Pointers in C++",
+    content: "Explain pointers and write code to display address of a variable.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Pointer Arithmetic",
+    content: "Write C++ code demonstrating increment and decrement of pointer variables.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Dynamic Memory",
+    content: "Write C++ code to allocate and deallocate memory for an integer using new and delete.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Pointer to Array",
+    content: "Write C++ code using a pointer to traverse an array.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- OBJECT ORIENTED PROGRAMMING ---
+  {
+    title: "Classes and Objects",
+    content: "Write a C++ class 'Car' with attributes brand and model, create an object and display values.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Constructor in C++",
+    content: "Write a class with a parameterized constructor and create an object to initialize data members.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Destructor in C++",
+    content: "Write a class with a destructor and display a message when object is destroyed.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Inheritance",
+    content: "Write C++ code demonstrating single inheritance.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Multiple Inheritance",
+    content: "Explain multiple inheritance in C++ and write a small example.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Polymorphism",
+    content: "Explain compile-time (function overloading) and run-time (virtual function) polymorphism with examples.",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "Encapsulation",
+    content: "Explain encapsulation in C++ and demonstrate with private members and public getters/setters.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Abstraction & Abstract Classes",
+    content: "Explain abstraction in C++ using pure virtual functions with an example.",
+    difficulty: "hard",
+    type: "theory"
+  },
+
+  // --- OPERATOR OVERLOADING & FRIEND FUNCTION ---
+  {
+    title: "Operator Overloading",
+    content: "Write C++ code to overload + operator for a class representing complex numbers.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Friend Function",
+    content: "Explain friend functions in C++ with a code example.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- TEMPLATES & STL ---
+  {
+    title: "Function Templates",
+    content: "Write a function template to find the maximum of two values.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Class Templates",
+    content: "Write a class template for a generic stack with push and pop methods.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Vectors in STL",
+    content: "Write C++ code to create a vector of integers, add elements, and display them.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Iterators in STL",
+    content: "Write C++ code to traverse a vector using iterators.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Maps in STL",
+    content: "Write C++ code to store student names and marks in a map and display them.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Sets in STL",
+    content: "Explain set in C++ STL and write code to insert elements and display unique values.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- FILE HANDLING ---
+  {
+    title: "File I/O Basics",
+    content: "Write C++ code to create a file 'data.txt' and write some text into it.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Read from File",
+    content: "Write C++ code to read contents of 'data.txt' and display on console.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Append to File",
+    content: "Write C++ code to append text to an existing file.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Binary File I/O",
+    content: "Explain how to read and write binary files in C++ with examples.",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "EOF in File I/O",
+    content: "Explain the use of eof() function in file handling with example.",
+    difficulty: "medium",
+    type: "theory"
+  }
 
   // ... continue with all your C++ questions
 ];

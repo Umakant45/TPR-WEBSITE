@@ -255,6 +255,300 @@ window.questionBank["javascript"] = [
   title: "Event listener example",
   content: "Write JavaScript code to display an alert when a button is clicked using addEventListener().",
   difficulty: "easy"
-}
+},
+{
+    title: "What is JavaScript?",
+    content: "Explain what JavaScript is and how it differs from Java.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Write Hello World in JavaScript",
+    content: "Write JavaScript code to display 'Hello, World!' in the browser console.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Data Types in JavaScript",
+    content: "List and explain different data types in JavaScript.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Variables in JavaScript",
+    content: "Explain the difference between var, let, and const with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Arithmetic Operations",
+    content: "Write JavaScript code to perform addition, subtraction, multiplication, and division of two numbers.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "String Concatenation",
+    content: "Write JavaScript code to concatenate first name and last name and display full name.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Template Literals",
+    content: "What are template literals in JavaScript? Give an example using backticks.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Type Conversion",
+    content: "Write JavaScript code to convert a string to a number and vice versa.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Operators",
+    content: "Explain the difference between == and === operators with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Conditional Statements",
+    content: "Write JavaScript code to check whether a number is even or odd.",
+    difficulty: "easy",
+    type: "program"
+  },
+
+  // --- LOOPS & FUNCTIONS ---
+  {
+    title: "For Loop Example",
+    content: "Write JavaScript code to print numbers from 1 to 10 using a for loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "While Loop Example",
+    content: "Write JavaScript code to calculate the sum of numbers from 1 to 5 using a while loop.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Functions in JavaScript",
+    content: "Write a function that takes two parameters and returns their sum.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Arrow Functions",
+    content: "What are arrow functions? Rewrite a normal function as an arrow function.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Default Parameters",
+    content: "Write a function that takes a name parameter with a default value 'Guest'.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Recursion",
+    content: "Write a recursive function to calculate the factorial of a number.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Nested Functions",
+    content: "What are nested functions in JavaScript? Demonstrate with a small code example.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- ARRAYS & OBJECTS ---
+  {
+    title: "Arrays in JavaScript",
+    content: "Write code to create an array of 5 fruits and display all elements.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Array Methods",
+    content: "Explain the use of push(), pop(), shift(), and unshift() methods with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "forEach() Method",
+    content: "Write JavaScript code to print all elements of an array using forEach().",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Objects in JavaScript",
+    content: "Write JavaScript code to create an object student with name, age, and grade properties.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Accessing Object Properties",
+    content: "Demonstrate two ways to access object properties in JavaScript.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Object Methods",
+    content: "Write JavaScript code to add a method inside an object and call it.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- EVENTS & DOM ---
+  {
+    title: "What is the DOM?",
+    content: "Explain what the Document Object Model (DOM) is and how JavaScript interacts with it.",
+    difficulty: "easy",
+    type: "theory"
+  },
+  {
+    title: "Selecting Elements",
+    content: "Write JavaScript code to change the text of a paragraph using document.getElementById().",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Event Handling",
+    content: "Write JavaScript code to display an alert message when a button is clicked.",
+    difficulty: "easy",
+    type: "program"
+  },
+  {
+    title: "Mouse Events",
+    content: "Write JavaScript code that changes the background color when the mouse hovers over a div.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Form Validation",
+    content: "Write JavaScript code to check if a form input is empty before submission.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Creating Elements",
+    content: "Write JavaScript code to dynamically create a new paragraph element and add it to the body.",
+    difficulty: "medium",
+    type: "program"
+  },
+
+  // --- ADVANCED CONCEPTS ---
+  {
+    title: "Closures",
+    content: "Explain what closures are in JavaScript with an example.",
+    difficulty: "hard",
+    type: "theory"
+  },
+  {
+    title: "Hoisting",
+    content: "What is hoisting in JavaScript? Explain with a code example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Promises",
+    content: "Write a simple promise in JavaScript that resolves after 2 seconds.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Async/Await",
+    content: "Write JavaScript code using async/await to fetch data from an API.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "setTimeout() and setInterval()",
+    content: "Explain the difference between setTimeout() and setInterval() with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "JSON in JavaScript",
+    content: "Write code to convert a JavaScript object to JSON and parse it back to an object.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Destructuring",
+    content: "Write JavaScript code to destructure an object with name and age properties.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Spread Operator",
+    content: "Explain the spread operator in JavaScript and give an example.",
+    difficulty: "medium",
+    type: "theory"
+  },
+
+  // --- OOP IN JAVASCRIPT ---
+  {
+    title: "Classes in JavaScript",
+    content: "Write JavaScript code to define a class Car with brand and model properties.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Class Inheritance",
+    content: "Write JavaScript code to demonstrate class inheritance using 'extends' keyword.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "this Keyword",
+    content: "Explain the use of 'this' keyword in JavaScript with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Getters and Setters",
+    content: "Write JavaScript code using getter and setter methods inside a class.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Prototype",
+    content: "Explain how prototypes work in JavaScript.",
+    difficulty: "hard",
+    type: "theory"
+  },
+
+  // --- BROWSER & STORAGE ---
+  {
+    title: "Local Storage",
+    content: "Write JavaScript code to save and retrieve data from localStorage.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Session Storage",
+    content: "Differentiate between localStorage and sessionStorage with examples.",
+    difficulty: "medium",
+    type: "theory"
+  },
+  {
+    title: "Fetch API",
+    content: "Write JavaScript code to fetch data from 'https://jsonplaceholder.typicode.com/posts'.",
+    difficulty: "hard",
+    type: "program"
+  },
+  {
+    title: "Error Handling",
+    content: "Write JavaScript code using try...catch to handle a division by zero error.",
+    difficulty: "medium",
+    type: "program"
+  },
+  {
+    title: "Strict Mode",
+    content: "What is 'use strict' in JavaScript and why is it important?",
+    difficulty: "medium",
+    type: "theory"
+  }
 
 ];
